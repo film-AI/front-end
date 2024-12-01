@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --UserInputColor: #f1f1f1;
+  --chatBotColor: #bbe6ed;
+  --maincolor: #283d4b;
+  --backgroundNightMode: #000000ef;
+}
+
+body {
+  background: var(--background);
+}
