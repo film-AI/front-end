@@ -20,13 +20,15 @@ function Header() {
             nightMode ? 'text-corPrincipal' : 'text-white'
           } text-[30px] font-bold font-['League Spartan'] cursor-pointer`}
           onClick={() => {
-            navigate('/Hub');
+            navigate('/');
           }}
         >
           FilmAÍ
         </div>
         <div
-          className="text-center text-white text-[30px] font-bold font-['League Spartan'] cursor-pointer mr-6"
+          className={`text-center  ${
+            nightMode ? 'text-corPrincipal' : 'text-white'
+          } text-[30px] font-bold font-['League Spartan'] cursor-pointer mr-6`}
           onClick={() => {
             setMenuActive(!MenuActive);
           }}
@@ -46,7 +48,6 @@ function Header() {
             setNightMode(!nightMode);
           }}
         />
-        <BsQuestionCircle color='white' />
       </div>
     </div>
   );

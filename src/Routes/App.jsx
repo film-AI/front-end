@@ -84,7 +84,7 @@ function App() {
 
       try {
         const response = await fetch(
-          `https://api.themoviedb.org/3/discover/movie?api_key=506ef0ac17c7aaa97f0421390a8ff530&with_genres=${categoria}&page=1`
+          `https://api.themoviedb.org/3/discover/movie?api_key=506ef0ac17c7aaa97f0421390a8ff530&with_genres=${categoria}&page=1&language=pt-BR`
         );
         const data = await response.json();
 

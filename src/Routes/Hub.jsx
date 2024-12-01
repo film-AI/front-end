@@ -31,7 +31,7 @@ function Hub() {
             nightMode ? 'text-white' : 'text-black'
           } `}
           onClick={() => {
-            navigate('/');
+            navigate('/Home');
           }}
         >
           Vamos lá
